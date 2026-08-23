@@ -19,3 +19,32 @@
 !/Rokurics-Apple/GEMINI.md
 !/Rokurics-Apple/docs/
 !/Rokurics-Apple/docs/NEXT_TARGET.md
+
+# Gradle / Android build outputs and caches
+.gradle/
+build/
+.kotlin/
+local.properties
+captures/
+
+# Android packaging artifacts (keep gradle-wrapper.jar tracked)
+*.apk
+*.aab
+
+# Android signing material
+*.keystore
+*.jks
+
+# .NET build outputs
+[Bb]in/
+[Oo]bj/
+
+# IDE / editor state
+.idea/
+*.iml
+
+# OS / Apple tooling noise
+.DS_Store
+Thumbs.db
+DerivedData/
+xcuserdata/
